@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Academic ERP System</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+    <!-- Dashboard Section -->
+    <div class="dashboard" id="dashboardSection">
+        <nav class="sidebar">
+            <div class="user-info">
+                <img src="/Users/akshatayushtigga/Desktop/WhatsApp Image 2025-04-11 at 6.07.02 PM.jpeg
+                " alt="User Profile">
+                <h3>Student Name</h3>
+                <p>ID: STU2023001</p>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#dashboard"><i class="fas fa-home"></i>Dashboard</a></li>
+                <li><a href="#attendance"><i class="fas fa-calendar-check"></i>Attendance</a></li>
+                <li><a href="#grades"><i class="fas fa-chart-line"></i>Grades</a></li>
+                <li><a href="#courses"><i class="fas fa-book"></i>Courses</a></li>
+                <li><a href="#assignments"><i class="fas fa-tasks"></i>Assignments</a></li>
+                <li><a href="#fees"><i class="fas fa-money-bill"></i>Fees</a></li>
+                <li><a href="#library"><i class="fas fa-book-reader"></i>Library</a></li>
+                <li><a href="#settings"><i class="fas fa-cog"></i>Settings</a></li>
+            </ul>
+        </nav>
+
+        <main class="main-content">
+            <header>
+                <div class="search-bar">
+                    <i class="fas fa-search"></i>
+                    <input type="text" id="searchInput" placeholder="Search...">
+                </div>
+                <div class="header-icons">
+                    <i class="fas fa-bell" aria-label="Notifications"></i>
+                    <i class="fas fa-envelope" aria-label="Messages"></i>
+                    <i class="fas fa-sign-out-alt" aria-label="Sign Out"></i>
+                </div>
+            </header>
+
+            <div class="dashboard-cards">
+                <div class="card attendance">
+                    <i class="fas fa-calendar-check"></i>
+                    <h3>Attendance</h3>
+                    <p>85%</p>
+                </div>
+                <div class="card grades">
+                    <i class="fas fa-chart-line"></i>
+                    <h3>Current CGPA</h3>
+                    <p>3.8</p>
+                </div>
+                <div class="card assignments">
+                    <i class="fas fa-tasks"></i>
+                    <h3>Pending Tasks</h3>
+                    <p>5</p>
+                </div>
+                <div class="card fees">
+                    <i class="fas fa-money-bill"></i>
+                    <h3>Fees Due</h3>
+                    <p>₹25,000</p>
+                </div>
+            </div>
+
+            <div class="recent-activity">
+                <h2>Recent Activity</h2>
+                <div class="activity-list">
+                    <div class="activity-item">
+                        <i class="fas fa-file-alt"></i>
+                        <div class="activity-details">
+                            <h4>Assignment Submitted</h4>
+                            <p>Data Structures - Assignment 3</p>
+                            <small>2 hours ago</small>
+                        </div>
+                    </div>
+                    <div class="activity-item">
+                        <i class="fas fa-book"></i>
+                        <div class="activity-details">
+                            <h4>Book Borrowed</h4>
+                            <p>Introduction to Algorithms</p>
+                            <small>Yesterday</small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+</body>
+
+</html>
